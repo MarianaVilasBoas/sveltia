@@ -6,9 +6,25 @@ backend:
 media_folder: assets/images
 
 collections:
-  - name: docs
-    label: Manuais
-    folder: docs
+  - name: carteira
+    label: Manuais de Carteira
+    folder: docs/carteira
+    create: true
+    fields:
+      - { label: Titulo, name: title, widget: string }
+      - { label: Conteudo, name: body, widget: markdown }
+
+  - name: onboarding
+    label: Manuais de Onboarding
+    folder: docs/onboarding
+    create: true
+    fields:
+      - { label: Titulo, name: title, widget: string }
+      - { label: Conteudo, name: body, widget: markdown }
+
+  - name: glpi
+    label: Manuais de GLPI
+    folder: docs/glpi
     create: true
     fields:
       - { label: Titulo, name: title, widget: string }
