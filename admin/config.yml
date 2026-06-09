@@ -3,7 +3,7 @@ backend:
   repo: MarianaVilasBoas/sveltia
   branch: main
   client_id: Ov23livKtkdid9D5minB
-  auth_endpoint: https://sveltia-cms-auth.pages.dev/auth
+  base_url: https://sveltia-cms-auth.pages.dev
 
 media_folder: assets/images
 
