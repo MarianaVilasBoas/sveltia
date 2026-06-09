@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: MarianaVilasBoas/sveltia
+  branch: main
+
+media_folder: assets/images
+
+collections:
+  - name: docs
+    label: Manuais
+    folder: docs
+    create: true
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Conteúdo, name: body, widget: markdown }
