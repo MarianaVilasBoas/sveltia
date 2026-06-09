@@ -2,6 +2,7 @@ backend:
   name: github
   repo: MarianaVilasBoas/sveltia
   branch: main
+  client_id: Ov23livKtkdid9D5minB
 
 media_folder: assets/images
 
@@ -11,5 +12,5 @@ collections:
     folder: docs
     create: true
     fields:
-      - { label: Título, name: title, widget: string }
-      - { label: Conteúdo, name: body, widget: markdown }
+      - { label: Titulo, name: title, widget: string }
+      - { label: Conteudo, name: body, widget: markdown }
