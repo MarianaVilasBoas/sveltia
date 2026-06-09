@@ -2,8 +2,6 @@ backend:
   name: github
   repo: MarianaVilasBoas/sveltia
   branch: main
-  client_id: Ov23livKtkdid9D5minB
-  base_url: https://sveltia-cms-auth.pages.dev
 
 media_folder: assets/images
 
